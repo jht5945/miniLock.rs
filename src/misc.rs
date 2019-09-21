@@ -6,3 +6,8 @@ pub fn print_version() {
     println!("{} - {}", NAME, VERSION);
 }
 
+pub fn print_help() {
+    print_version();
+    println!("{} implements {}", NAME, "https://github.com/kaepora/miniLock");
+}
+

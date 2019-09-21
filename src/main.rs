@@ -17,5 +17,6 @@ fn main() {
         return;
     }
 
-    println!("Hello world: mini_lock!");
+    println!();
+    misc::print_help();
 }
