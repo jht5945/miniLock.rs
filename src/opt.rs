@@ -1,5 +1,6 @@
 use argparse::{ArgumentParser, StoreTrue, Store};
 
+#[derive(Debug)]
 pub struct Options {
     pub version: bool,
     pub verbose: bool,
