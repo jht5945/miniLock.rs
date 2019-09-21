@@ -1,5 +1,7 @@
 mod opt;
 mod misc;
+mod encode;
+mod mini_lock;
 
 use opt::Options;
 use rust_util::util_msg::*;
@@ -19,4 +21,6 @@ fn main() {
 
     println!();
     misc::print_help();
+    println!();
+    println!("{:?}", mini_lock::MINI_LOCK_MAGIC_BYTES);
 }

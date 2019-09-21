@@ -10,4 +10,7 @@ edition = "2018"
 argparse = "0.2.2"
 json = "0.11.14"
 term = "0.5.2"
+rust-crypto = "0.2.36"
+base58 = "0.1.0"
+base64 = "0.10.1"
 rust_util = { git = "https://github.com/jht5945/rust_util" }
